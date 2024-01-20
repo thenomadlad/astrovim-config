@@ -11,6 +11,7 @@ return {
 
   -- documentation
   { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
 
   -- config/data files
   { import = "astrocommunity.pack.yaml" },
@@ -27,8 +28,18 @@ return {
   -- misc
   { import = "astrocommunity.pack.quarto" },
 
+  -- syntax
+  { import = "astrocommunity.syntax.hlargs-nvim" },
+  { import = "astrocommunity.syntax.vim-easy-align" },
+
+  -- test
+  { import = "astrocommunity.test.neotest" },
+
   -- editor enhancements
   { import = "astrocommunity.editing-support.auto-save-nvim" },
   { import = "astrocommunity.editing-support.multicursors-nvim" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
+  { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
+  { import = "astrocommunity.workflow.hardtime-nvim" },
+  -- { import = "astrocommunity.diagnostics.lsp_lines-nvim" },
 }

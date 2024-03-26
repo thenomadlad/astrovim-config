@@ -40,6 +40,6 @@ return {
   { import = "astrocommunity.editing-support.multicursors-nvim" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
-  { import = "astrocommunity.workflow.hardtime-nvim" },
+  { import = "astrocommunity.workflow.bad-practices-nvim" },
   -- { import = "astrocommunity.diagnostics.lsp_lines-nvim" },
 }
